@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+{% include "../parts/meta.twig" %}
+<body>
+
+{% include "../../blocks/browser-update/browser-update.twig" %}
+
+{% block header %}
+  {% include "../../blocks/header/header.twig" %}
+{% endblock %}
+
+<main>
+  {% include '../../blocks/preloader/preloader.twig' %}
+  {% block body %}{% endblock %}
+</main>
+
+{% block footer %}
+  {% include "../../blocks/footer/footer.twig" %}
+{% endblock %}
+
+{% block popups %}{% endblock %}
+
+{% block vueTemplates %}{% endblock %}
+
+{% block scripts %}
+  <script src="scripts/index.js"></script>
+{% endblock %}
+</body>
+</html>

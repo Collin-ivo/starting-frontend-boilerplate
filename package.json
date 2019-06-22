@@ -1,8 +1,10 @@
 {
   "name": "starting-setup",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Starting kit for standard frontend project",
+  "description": "Standard builder for frontend project",
+  "author": "Nikolay Ivanov n_13@bk.ru",
+  "license": "ISC",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp-posthtml": "^3.0.4",
@@ -14,15 +16,18 @@
     "svgxuse": "^1.2.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.1.x",
+    "babel-loader": "^8.0.6",
     "browser-sync": "^2.24.7",
     "chai": "^4.2.0",
     "css-mqpacker": "^7.0.0",
     "del": "^3.0.0",
     "eslint": "^5.16.0",
     "eslint-config-htmlacademy": "^0.5.2",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-better-rollup": "^4.0.1",
     "gulp-clean-css": "^3.4.0",
     "gulp-csso": "^3.0.1",
@@ -35,7 +40,11 @@
     "gulp-posthtml": "3.0.4",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "4.0.x",
+    "gulp-sass-glob": "^1.0.9",
     "gulp-sourcemaps": "^2.6.5",
+    "gulp-twig": "^1.2.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.4.1",
     "mocha": "^6.0.2",
     "postcss-less": "^3.1.4",
     "postcss-reporter": "^6.0.0",
@@ -47,7 +56,9 @@
     "rollup-plugin-commonjs": "^9.2.2",
     "stylelint": "^9.6.0",
     "stylelint-config-htmlacademy": "0.1.x",
-    "uglify-js": "^3.5.2"
+    "uglify-js": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-stream": "^5.2.1"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",

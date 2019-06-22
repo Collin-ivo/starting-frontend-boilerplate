@@ -1,0 +1,40 @@
+// Размеры экрана
+$screen-sm: 320px;
+$screen-md: 768px;
+$screen-lg: 1440px;
+
+// Переходы
+$transition-slowly: .8s;
+$transition-slow: .35s;
+$transition-normal: .25s;
+$transition-medium: .15s;
+$transition-fast: .1s;
+
+// Переходы для ховера
+$transition-hover-on: $transition-medium;
+$transition-hover-off: $transition-normal;
+
+$font-family-default: 'Arial', Helvetica, sans-serif;
+
+$color-text-default: #111111;
+$color-text-light: #555555;
+$color-text-black: #000000;
+
+$color-border: #d8d8d8;
+$color-border-2: #dddddd;
+$color-border-3: #979797;
+
+$color-table: #f3f3f3;
+
+$color-text-2: #a7a7a7;
+$color-text-3: #1a1a1a;
+$color-text-red: #ff0000;
+
+$color-red: #c80000;
+$color-blue: #296ab3;
+$color-green: #519f6c;
+
+$color-link-hover: #63666a;
+
+$color-notify-green: #d7ecd9;
+$color-notify-red: #FACFD7;
