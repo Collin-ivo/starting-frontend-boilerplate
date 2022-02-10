@@ -11,7 +11,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-less": "^4.0.1",
     "node-less": "^1.0.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "svgo": "^1.1.1",
     "svgxuse": "^1.2.6"
   },
