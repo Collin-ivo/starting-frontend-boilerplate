@@ -21,7 +21,7 @@
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.1.x",
     "babel-loader": "^8.0.6",
-    "browser-sync": "^2.24.7",
+    "browser-sync": "^2.29.1",
     "chai": "^4.2.0",
     "css-mqpacker": "^7.0.0",
     "del": "^3.0.0",
