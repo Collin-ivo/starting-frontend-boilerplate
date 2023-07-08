@@ -54,7 +54,7 @@
     "pump": "^3.0.0",
     "rollup": "^1.7.4",
     "rollup-plugin-commonjs": "^9.2.2",
-    "stylelint": "^9.6.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-htmlacademy": "0.1.x",
     "uglify-js": "^3.5.2",
     "webpack": "^4.35.0",
